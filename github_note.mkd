@@ -1,0 +1,20 @@
+#GitHub一般应用
+##1.建立
+一个项目刚刚建立时，执行：
+
+    git init
+    git add .
+    git commit -m "some words"
+    git remote add origin 【项目的SSH地址】（如 git remote add origin git@github.com:Adoni/Adoni.git）
+    git push origin master (或者也可以用 git push直接代替)
+
+以后就可以直接执行`git push` 即可
+##2.复制代码到本地
+从github上复制代码到本地最常用的是：
+
+    git clone 【项目的SSH地址】（如git clone git@github.com:Adoni/Adoni.git）
+
+如果是复制并同本地代码合并，则需要：
+
+git pull 【项目SSH地址】（如git pull git@github.com:Adoni/Adoni.git）
+##常见错误
